@@ -3,40 +3,69 @@
     box-sizing: border-box;/* Opera/IE 8+ */
     -moz-box-sizing: border-box; /* Firefox, autres Gecko */
     -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit*/
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-     
+    font-family: "Righteous", Arial, Helvetica, sans-serif;
+    
 }
 
 body{
-    background-color: red ;
+    background-color: #d62828 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+header{
+
+    width: 100%;
+    height: 30%;
+    background:#003049;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-header{
-    width: 500px;
-}
-h1{
-    font: 24px;
-    text-decoration: underline;
-    color: #003049;
+h1, h2{
+    font-size: 64px;
+    color:#d62828 ;
     font-weight: bold;
     margin-bottom: 24px;
 }
 
-h2{
-    font-size: 18px;
-    color: #003049;
-    font-weight: bold;
+h2, h3{
+    font-size: 24px;
+    color: #fcbf49;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12%;
+}
+.heart{
+    font-size: 50px;
+    color: #f77f00;
+    border: 2px solid #f77f00;
 }
 form
 {
-    width: 460px;
+    
     display: inline-flex;
+    height: 42px;
+    width: 250px;
    
 }
-
-.icon{
-    color: #d62828;
+input{
+    border: 2px solid #f77f00;
+    color: #003049;
+    font-weight: bold;
+    font-size: 18px;
+    width: 80%;
+}
+button{
+    
+    border: 2px solid #f77f00;
+    width: 20%;
+    background-color:#f77f00 ;
+    color: #003049;
+    font-size: 18px;
 }
